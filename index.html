@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Primary Meta Tags -->
+  <title>Amey Anil Ghogare | Data Analyst &amp; Python Developer Portfolio</title>
+  <meta name="title" content="Amey Anil Ghogare | Data Analyst &amp; Python Developer Portfolio">
+  <meta name="description" content="Portfolio of Amey Anil Ghogare — Data Analyst, Python Developer, and Machine Learning Enthusiast. Transforming raw data into actionable insights and scalable technology solutions.">
+  <meta name="author" content="Amey Anil Ghogare">
+  <meta name="keywords" content="Amey Ghogare, Data Analyst, Python Developer, Machine Learning, Power BI, SQL, Computer Science Portfolio, Amravati">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS Files -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Ambient Background Glows -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="ambient-orb ambient-orb-1"></div>
+    <div class="ambient-orb ambient-orb-2"></div>
+    <div class="ambient-orb ambient-orb-3"></div>
+  </div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" aria-label="Amey Ghogare Homepage">
+        <div class="nav-logo-badge">AG</div>
+        <div class="nav-logo-text">Amey<span>.dev</span></div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <ul class="nav-menu" id="nav-menu" role="menubar">
+        <li role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+        <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+        <li role="none"><a href="#experience" class="nav-link" role="menuitem">Experience</a></li>
+        <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+        <li role="none"><a href="#education" class="nav-link" role="menuitem">Education</a></li>
+        <li role="none"><a href="#certifications" class="nav-link" role="menuitem">Certifications</a></li>
+        <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+      </ul>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <!-- Moon Icon (Dark Mode active) -->
+          <svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (Light Mode active) -->
+          <svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <!-- Resume Download CTA in Navbar -->
+        <a href="assets/resume.pdf" download="Amey_Anil_Ghogare_Resume.pdf" class="btn btn-primary btn-sm" title="Download Official Resume PDF">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main>
+
+    <!-- ==================== 1. HERO SECTION ==================== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Left Column: Headline, Typewriter, Intro, Buttons & Links -->
+          <div class="hero-content">
+            <div class="hero-status-pill">
+              <span class="status-dot"></span>
+              <span>Available for Technical Opportunities</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Amey Ghogare</span>.
+            </h1>
+
+            <!-- Animated Typing Effect Container -->
+            <div class="hero-roles" aria-live="polite">
+              <span>Specializing in </span>
+              <span id="typed-text" class="typed-text">Data Analyst</span>
+            </div>
+
+            <!-- Short Professional Introduction -->
+            <p class="hero-bio">
+              I'm a Computer Science graduate passionate about data analytics, Python development and machine learning. I enjoy transforming raw data into meaningful insights and building practical technology solutions.
+            </p>
+
+            <!-- Geographic Location Indicator -->
+            <div class="hero-location">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Amravati, Maharashtra, India</span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>Explore My Projects</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+
+              <a href="assets/resume.pdf" download="Amey_Anil_Ghogare_Resume.pdf" class="btn btn-secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Download Resume</span>
+              </a>
+            </div>
+
+            <!-- Working Social Profiles (GitHub & LinkedIn) -->
+            <div class="hero-socials">
+              <!-- GitHub Link -->
+              <a href="https://github.com/AmeyGhogare" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Visit Amey's GitHub Profile" title="GitHub / AmeyGhogare">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+
+              <!-- LinkedIn Link -->
+              <a href="https://www.linkedin.com/in/amey-ghogare/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Visit Amey's LinkedIn Profile" title="LinkedIn / amey-ghogare">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+
+              <!-- Direct Email Link -->
+              <a href="mailto:ameyghogare18@gmail.com" class="social-link" aria-label="Send direct email to Amey" title="Email ameyghogare18@gmail.com">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Developer Telemetry Card -->
+          <div class="hero-visual-wrapper">
+            <div class="hero-visual-card">
+              <img src="assets/images/hero-visual.svg" alt="Amey Ghogare Technical Stack &amp; Analytics Dashboard Illustration" width="540" height="440" loading="eager">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. ABOUT ME SECTION ==================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">About Me</span>
+          <h2 class="section-title">Bridging Data Analytics &amp; <span class="gradient-text">Software Engineering</span></h2>
+          <p class="section-subtitle">
+            A detail-oriented developer focused on building impactful machine learning models, analytical dashboards, and reliable web applications.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Introduction -->
+          <div class="about-text-content reveal">
+            <p>
+              I am pursuing my <strong>Bachelor of Engineering in Computer Science &amp; Engineering</strong> at <strong>Prof. Ram Meghe Institute of Technology &amp; Research, Badnera</strong> (S.G.B.A. University, Amravati, 2022–2026).
+            </p>
+            <p>
+              With a strong foundation in core computer science, my passion lies at the intersection of <strong>Data Analytics</strong> and <strong>Machine Learning</strong>. I specialize in <strong>Python programming</strong> and <strong>SQL</strong>, utilizing analytical frameworks to extract valuable business intelligence from complex datasets.
+            </p>
+            <p>
+              I have practical experience in <strong>data cleaning, exploratory data analysis (EDA), and data visualization</strong> using tools like Pandas, NumPy, and Power BI. Furthermore, I design web applications using <strong>Django and Flask</strong>, turning predictive models into production-ready software solutions to solve real-world business challenges.
+            </p>
+
+            <div class="about-features">
+              <div class="feature-pill">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Python &amp; SQL Querying</span>
+              </div>
+              <div class="feature-pill">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Data Cleaning &amp; EDA</span>
+              </div>
+              <div class="feature-pill">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Django &amp; Flask Web Apps</span>
+              </div>
+              <div class="feature-pill">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Applied Machine Learning</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight Cards Grid -->
+          <div class="about-stats-grid reveal delay-2">
+            <div class="stat-card">
+              <div class="stat-number">4+</div>
+              <div class="stat-title">End-to-End Projects</div>
+              <div class="stat-desc">From computer vision AI to enterprise BI analytics</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-number">6+</div>
+              <div class="stat-title">Certifications</div>
+              <div class="stat-desc">AWS Cloud, Google Cloud GenAI &amp; NPTEL Data Science</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-number">2026</div>
+              <div class="stat-title">B.E. Computer Science</div>
+              <div class="stat-desc">PRMITR, Badnera (S.G.B.A. University)</div>
+            </div>
+
+            <div class="stat-card">
+              <div class="stat-number">100%</div>
+              <div class="stat-title">Practical Focus</div>
+              <div class="stat-desc">Transforming raw data into clear business solutions</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. TECHNICAL SKILLS SECTION ==================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Technical Stack</span>
+          <h2 class="section-title">Skills &amp; <span class="gradient-text">Core Competencies</span></h2>
+          <p class="section-subtitle">
+            A comprehensive overview of programming languages, data analytics libraries, machine learning algorithms, and development tools I work with.
+          </p>
+        </div>
+
+        <!-- Category Filter Tabs -->
+        <div class="skills-filter reveal" role="tablist">
+          <button class="skills-tab-btn active" data-skill-cat="all">All Domains</button>
+          <button class="skills-tab-btn" data-skill-cat="programming">Programming</button>
+          <button class="skills-tab-btn" data-skill-cat="analytics">Data Analytics</button>
+          <button class="skills-tab-btn" data-skill-cat="ml">Machine Learning</button>
+          <button class="skills-tab-btn" data-skill-cat="nlp">NLP &amp; Deep Learning</button>
+          <button class="skills-tab-btn" data-skill-cat="web">Web &amp; Database</button>
+          <button class="skills-tab-btn" data-skill-cat="tools">Tools</button>
+        </div>
+
+        <!-- Skills Cards Grid -->
+        <div class="skills-categories-grid">
+
+          <!-- Category 1: Programming -->
+          <div class="skill-category-card reveal" data-category="programming">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Programming</h3>
+            </div>
+            <div class="skills-badge-list">
+              <span class="skill-badge"><span class="skill-dot"></span>Python</span>
+              <span class="skill-badge"><span class="skill-dot"></span>SQL</span>
+              <span class="skill-badge"><span class="skill-dot"></span>JavaScript</span>
+              <span class="skill-badge"><span class="skill-dot"></span>C</span>
+              <span class="skill-badge"><span class="skill-dot"></span>C++</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Data Analytics -->
+          <div class="skill-category-card reveal delay-1" data-category="analytics">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="18" y1="20" x2="18" y2="10"></line>
+                  <line x1="12" y1="20" x2="12" y2="4"></line>
+                  <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Data Analytics</h3>
+            </div>
+            <div class="skills-badge-list">
+              <span class="skill-badge"><span class="skill-dot"></span>Pandas</span>
+              <span class="skill-badge"><span class="skill-dot"></span>NumPy</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Excel</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Power BI</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Matplotlib</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Seaborn</span>
+              <span class="skill-badge"><span class="skill-dot"></span>DAX</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Machine Learning -->
+          <div class="skill-category-card reveal delay-2" data-category="ml">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a4 4 0 0 1 4 4v1a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"></path>
+                  <path d="M16 11v2a4 4 0 0 1-8 0v-2"></path>
+                  <circle cx="12" cy="18" r="3"></circle>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Machine Learning</h3>
+            </div>
+            <div class="skills-badge-list">
+              <span class="skill-badge"><span class="skill-dot"></span>Scikit-learn</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Supervised Learning</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Classification</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Feature Engineering</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Model Evaluation</span>
+            </div>
+          </div>
+
+          <!-- Category 4: NLP and Deep Learning -->
+          <div class="skill-category-card reveal delay-1" data-category="nlp">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                  <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                  <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">NLP &amp; Deep Learning</h3>
+            </div>
+            <div class="skills-badge-list">
+              <span class="skill-badge"><span class="skill-dot"></span>NLTK</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Text Preprocessing</span>
+              <span class="skill-badge"><span class="skill-dot"></span>NLP Fundamentals</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Neural Network Fundamentals</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Web Development & Database -->
+          <div class="skill-category-card reveal delay-2" data-category="web">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Web &amp; Database</h3>
+            </div>
+            <div class="skills-badge-list">
+              <span class="skill-badge"><span class="skill-dot"></span>HTML</span>
+              <span class="skill-badge"><span class="skill-dot"></span>CSS</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Django</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Flask</span>
+              <span class="skill-badge"><span class="skill-dot"></span>REST API Fundamentals</span>
+              <span class="skill-badge"><span class="skill-dot"></span>MySQL</span>
+            </div>
+          </div>
+
+          <!-- Category 6: Development Tools -->
+          <div class="skill-category-card reveal delay-3" data-category="tools">
+            <div class="skill-category-header">
+              <div class="skill-cat-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Developer Tools</h3>
+            </div>
+            <div class="skills-badge-list">
+              <span class="skill-badge"><span class="skill-dot"></span>Git</span>
+              <span class="skill-badge"><span class="skill-dot"></span>GitHub</span>
+              <span class="skill-badge"><span class="skill-dot"></span>Jupyter Notebook</span>
+              <span class="skill-badge"><span class="skill-dot"></span>VS Code</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. PROFESSIONAL EXPERIENCE SECTION ==================== -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Career Journey</span>
+          <h2 class="section-title">Professional <span class="gradient-text">Experience &amp; Training</span></h2>
+          <p class="section-subtitle">
+            Hands-on industry training and real-world applied analytics workflows.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-marker">
+              <div class="timeline-marker-inner"></div>
+            </div>
+
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role-title">Data Analytics &amp; Machine Learning Trainee</h3>
+                  <div class="timeline-company">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                    <span>Codenera Pvt Ltd</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">June 2026 – Present</span>
+              </div>
+
+              <p class="timeline-desc">
+                Currently developing practical skills in data preprocessing, exploratory analysis, machine learning workflows, and model evaluation through hands-on exercises and projects.
+              </p>
+
+              <div class="timeline-focus-box">
+                <div class="timeline-focus-title">Core Training &amp; Applied Practice:</div>
+                <p class="timeline-focus-text">
+                  Python, SQL, Advanced Excel, Power BI, Data Cleaning, Exploratory Data Analysis, Data Visualization, and Machine Learning.
+                </p>
+              </div>
+
+              <div class="timeline-tags">
+                <span class="timeline-tag">Python</span>
+                <span class="timeline-tag">SQL</span>
+                <span class="timeline-tag">Power BI</span>
+                <span class="timeline-tag">Advanced Excel</span>
+                <span class="timeline-tag">EDA</span>
+                <span class="timeline-tag">Machine Learning</span>
+                <span class="timeline-tag">Data Cleaning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. PROJECTS SECTION ==================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Featured Work</span>
+          <h2 class="section-title">Projects &amp; <span class="gradient-text">Practical Solutions</span></h2>
+          <p class="section-subtitle">
+            Real-world projects highlighting computer vision attention monitoring, ride-booking business intelligence, ATM cash availability analysis, and churn prediction.
+          </p>
+        </div>
+
+        <!-- Project Filtering Bar -->
+        <div class="projects-filter-bar reveal">
+          <button class="project-filter-btn active" data-filter="all">All Projects (4)</button>
+          <button class="project-filter-btn" data-filter="analytics">Data Analytics &amp; BI</button>
+          <button class="project-filter-btn" data-filter="ml">Machine Learning &amp; AI</button>
+          <button class="project-filter-btn" data-filter="cv">Python &amp; Computer Vision</button>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT 1: FocusGuard AI -->
+          <div class="project-card reveal" data-category="ml cv">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/project-focusguard.svg" alt="FocusGuard AI Attention Monitoring and Analytics Dashboard" class="project-thumb-img" width="800" height="480" loading="lazy">
+              <span class="project-badge-overlay">Computer Vision &bull; AI</span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">FocusGuard AI – Attention Monitoring &amp; Analytics Dashboard</h3>
+              <p class="project-desc">
+                Developed a real-time attention-monitoring application using OpenCV and MediaPipe to detect facial landmarks and analyze eye and head-pose signals. Implemented Eye Aspect Ratio (EAR)-based blink detection, head-pose estimation, live webcam streaming, attention-state classification and session tracking.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">MediaPipe</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Chart.js</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/AmeyGhogare/FocusGuard_AI" target="_blank" rel="noopener noreferrer" class="project-link-btn project-link-github" title="View FocusGuard AI Repository on GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: OLA Data Analyst Project -->
+          <div class="project-card reveal delay-1" data-category="analytics">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/project-ola.svg" alt="OLA Data Analyst Project Power BI and SQL Dashboard" class="project-thumb-img" width="800" height="480" loading="lazy">
+              <span class="project-badge-overlay">Data Analytics &bull; Power BI</span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">OLA Data Analyst Project – Power BI &amp; SQL</h3>
+              <p class="project-desc">
+                Analyzed cab ride-booking data to understand booking status, cancellations, revenue by payment method, customer behavior and vehicle performance. Used SQL queries and an interactive Power BI dashboard.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">Excel</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/AmeyGhogare/OLA-Data-Analyst-Project-Power-BI-SQL" target="_blank" rel="noopener noreferrer" class="project-link-btn project-link-github" title="View OLA Project Repository on GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: ATM Cash Utilization -->
+          <div class="project-card reveal" data-category="analytics">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/project-atm.svg" alt="ATM Cash Utilization and Downtime Analysis Dashboard" class="project-thumb-img" width="800" height="480" loading="lazy">
+              <span class="project-badge-overlay">Financial Analytics &bull; EDA</span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">ATM Cash Utilization &amp; Downtime Analysis</h3>
+              <p class="project-desc">
+                Analyzed ATM withdrawal patterns, cash demand, utilization trends and cash availability risks. Performed data cleaning, EDA, feature engineering, SQL analysis and dashboard development.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">DAX</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/AmeyGhogare/atm-cash-utilization-analysis" target="_blank" rel="noopener noreferrer" class="project-link-btn project-link-github" title="View ATM Analysis Repository on GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: Customer Churn Prediction -->
+          <div class="project-card reveal delay-1" data-category="ml">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/project-churn.svg" alt="Customer Churn Prediction Machine Learning Model" class="project-thumb-img" width="800" height="480" loading="lazy">
+              <span class="project-badge-overlay">Machine Learning &bull; Scikit-learn</span>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">Customer Churn Prediction</h3>
+              <p class="project-desc">
+                Machine learning project focused on customer churn prediction and identifying customers at risk of leaving a service.
+              </p>
+
+              <div class="project-tech-stack">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">Machine Learning</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/AmeyGhogare/customer-churn-prediction" target="_blank" rel="noopener noreferrer" class="project-link-btn project-link-github" title="View Customer Churn Prediction Repository on GitHub">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. EDUCATION SECTION ==================== -->
+    <section id="education" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Academic Background</span>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Qualifications</span></h2>
+          <p class="section-subtitle">
+            Formal technical education in Computer Science and Engineering principles.
+          </p>
+        </div>
+
+        <div class="education-container reveal">
+          <div class="education-card">
+            <div class="edu-icon-badge">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+
+            <div class="edu-details">
+              <h3 class="edu-degree">Bachelor of Engineering in Computer Science &amp; Engineering</h3>
+              <div class="edu-institution">Prof. Ram Meghe Institute of Technology &amp; Research, Badnera</div>
+              <div class="edu-university">Sant Gadge Baba Amravati University (S.G.B.A. University, Amravati)</div>
+
+              <div class="edu-meta">
+                <div class="edu-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  <span>2022 – 2026</span>
+                </div>
+
+                <div class="edu-meta-item">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>Badnera, Amravati, Maharashtra</span>
+                </div>
+              </div>
+
+              <p class="edu-highlights">
+                Rigorous curriculum covering Data Structures &amp; Algorithms, Database Management Systems (DBMS), Object-Oriented Programming, Operating Systems, Machine Learning Foundations, Computer Networks, and Software Engineering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 7. CERTIFICATIONS SECTION ==================== -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Credentials</span>
+          <h2 class="section-title">Professional <span class="gradient-text">Certifications</span></h2>
+          <p class="section-subtitle">
+            Industry recognized credentials in Cloud Computing, Python Data Science, Artificial Intelligence, and Cybersecurity.
+          </p>
+        </div>
+
+        <div class="certs-grid">
+
+          <!-- Cert 1: AWS Cloud Foundations -->
+          <div class="cert-card reveal">
+            <div class="cert-top-row">
+              <span class="cert-issuer-badge cert-issuer-aws">AWS Academy</span>
+              <span class="cert-verified-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Graduate</span>
+              </span>
+            </div>
+            <h3 class="cert-title">AWS Academy Graduate – AWS Academy Cloud Foundations</h3>
+            <div class="cert-domain-tags">
+              <span class="cert-tag">Cloud Infrastructure</span>
+              <span class="cert-tag">AWS Core Services</span>
+              <span class="cert-tag">Security &amp; Billing</span>
+            </div>
+          </div>
+
+          <!-- Cert 2: NPTEL Python for Data Science -->
+          <div class="cert-card reveal delay-1">
+            <div class="cert-top-row">
+              <span class="cert-issuer-badge cert-issuer-nptel">NPTEL</span>
+              <span class="cert-verified-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Certified</span>
+              </span>
+            </div>
+            <h3 class="cert-title">NPTEL – Python for Data Science</h3>
+            <div class="cert-domain-tags">
+              <span class="cert-tag">Python</span>
+              <span class="cert-tag">Data Manipulation</span>
+              <span class="cert-tag">Pandas &amp; NumPy</span>
+            </div>
+          </div>
+
+          <!-- Cert 3: Google Cloud GenAI Study Jams 2024 -->
+          <div class="cert-card reveal delay-2">
+            <div class="cert-top-row">
+              <span class="cert-issuer-badge cert-issuer-google">Google Cloud</span>
+              <span class="cert-verified-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Completed</span>
+              </span>
+            </div>
+            <h3 class="cert-title">Google Cloud – GenAI Study Jams 2024</h3>
+            <div class="cert-domain-tags">
+              <span class="cert-tag">Generative AI</span>
+              <span class="cert-tag">LLMs</span>
+              <span class="cert-tag">Prompt Engineering</span>
+            </div>
+          </div>
+
+          <!-- Cert 4: Google Cloud AI & ML Courses -->
+          <div class="cert-card reveal">
+            <div class="cert-top-row">
+              <span class="cert-issuer-badge cert-issuer-google">Google Cloud</span>
+              <span class="cert-verified-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Completed</span>
+              </span>
+            </div>
+            <h3 class="cert-title">Google Cloud – AI &amp; ML Courses</h3>
+            <div class="cert-domain-tags">
+              <span class="cert-tag">Machine Learning</span>
+              <span class="cert-tag">Vertex AI</span>
+              <span class="cert-tag">Model Pipelines</span>
+            </div>
+          </div>
+
+          <!-- Cert 5: AWS Academy Cloud Architecting -->
+          <div class="cert-card reveal delay-1">
+            <div class="cert-top-row">
+              <span class="cert-issuer-badge cert-issuer-aws">AWS Academy</span>
+              <span class="cert-verified-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Accredited</span>
+              </span>
+            </div>
+            <h3 class="cert-title">AWS Academy – Cloud Architecting</h3>
+            <div class="cert-domain-tags">
+              <span class="cert-tag">Cloud Architecture</span>
+              <span class="cert-tag">High Availability</span>
+              <span class="cert-tag">Scalability</span>
+            </div>
+          </div>
+
+          <!-- Cert 6: Cisco Introduction to Cybersecurity -->
+          <div class="cert-card reveal delay-2">
+            <div class="cert-top-row">
+              <span class="cert-issuer-badge cert-issuer-cisco">Cisco</span>
+              <span class="cert-verified-pill">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                <span>Certified</span>
+              </span>
+            </div>
+            <h3 class="cert-title">Cisco – Introduction to Cybersecurity</h3>
+            <div class="cert-domain-tags">
+              <span class="cert-tag">Network Security</span>
+              <span class="cert-tag">Threat Defense</span>
+              <span class="cert-tag">Data Protection</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. CONTACT SECTION ==================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Get in Touch</span>
+          <h2 class="section-title">Let's Connect and <span class="gradient-text">Build Something Great</span></h2>
+          <p class="section-subtitle">
+            Whether you are looking for a Data Analyst, Python Developer, or have an exciting project to discuss, I'd love to hear from you.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Left Column: Direct Contact Info & Working Profiles -->
+          <div class="contact-info-card reveal">
+            <h3 class="contact-info-title">Contact Information</h3>
+            <p class="contact-info-desc">
+              Feel free to reach out directly via email, connect on LinkedIn, or review my code repositories on GitHub.
+            </p>
+
+            <div class="contact-items-list">
+              <!-- Email Row with Clickable Link and Copy Button -->
+              <div class="contact-item-row">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-item-detail">
+                  <span class="contact-item-label">Email Address</span>
+                  <a href="mailto:ameyghogare18@gmail.com" class="contact-item-value" title="Send email to ameyghogare18@gmail.com">ameyghogare18@gmail.com</a>
+                </div>
+                <button type="button" id="copy-email-btn" class="copy-btn" aria-label="Copy email address to clipboard">Copy</button>
+              </div>
+
+              <!-- GitHub Row -->
+              <div class="contact-item-row">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </div>
+                <div class="contact-item-detail">
+                  <span class="contact-item-label">GitHub</span>
+                  <a href="https://github.com/AmeyGhogare" target="_blank" rel="noopener noreferrer" class="contact-item-value" title="Amey's GitHub Profile">github.com/AmeyGhogare</a>
+                </div>
+                <a href="https://github.com/AmeyGhogare" target="_blank" rel="noopener noreferrer" class="copy-btn" title="Open GitHub Profile">Visit</a>
+              </div>
+
+              <!-- LinkedIn Row -->
+              <div class="contact-item-row">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="contact-item-detail">
+                  <span class="contact-item-label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/amey-ghogare/" target="_blank" rel="noopener noreferrer" class="contact-item-value" title="Amey's LinkedIn Profile">linkedin.com/in/amey-ghogare</a>
+                </div>
+                <a href="https://www.linkedin.com/in/amey-ghogare/" target="_blank" rel="noopener noreferrer" class="copy-btn" title="Open LinkedIn Profile">Connect</a>
+              </div>
+
+              <!-- Location Row -->
+              <div class="contact-item-row">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-item-detail">
+                  <span class="contact-item-label">Location</span>
+                  <span class="contact-item-value">Amravati, Maharashtra, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-card reveal delay-2">
+            <div id="form-status" class="form-status-alert" role="alert"></div>
+
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="john@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control" placeholder="Opportunity / Collaboration" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="nav-logo-badge">AG</div>
+            <div class="nav-logo-text">Amey Anil Ghogare</div>
+          </div>
+          <p>
+            Data Analyst &bull; Python Developer &bull; Machine Learning Enthusiast. Focused on turning complex data into clear strategic value.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Featured Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="https://github.com/AmeyGhogare" target="_blank" rel="noopener noreferrer">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/amey-ghogare/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></li>
+            <li><a href="mailto:ameyghogare18@gmail.com">Direct Email</a></li>
+            <li><a href="assets/resume.pdf" download="Amey_Anil_Ghogare_Resume.pdf">Download Resume</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Amey Anil Ghogare. All rights reserved.
+        </div>
+        <div>
+          Designed &amp; Developed with Modern Standards &bull; Amravati, Maharashtra, India
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Custom JavaScript File -->
+  <script src="js/script.js"></script>
+</body>
+</html>

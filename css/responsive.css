@@ -1,0 +1,292 @@
+/* ===================================================================
+   Responsive Stylesheet - Amey Anil Ghogare Portfolio
+   Handles Breakpoints: 1024px, 768px, 600px, 480px, 360px
+   =================================================================== */
+
+/* --- Tablet Landscape / Laptops (max-width: 1024px) --- */
+@media (max-width: 1024px) {
+  .section {
+    padding: 80px 0;
+  }
+
+  .hero-title {
+    font-size: 2.85rem;
+  }
+
+  .hero-roles {
+    font-size: 1.4rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: left;
+  }
+
+  .hero-visual-wrapper {
+    order: -1;
+    max-width: 460px;
+    margin: 0 auto;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .footer-brand {
+    grid-column: span 2;
+  }
+}
+
+/* --- Tablets Portrait & Smaller Screens (max-width: 768px) --- */
+@media (max-width: 768px) {
+  :root {
+    --nav-height: 68px;
+  }
+
+  .section {
+    padding: 64px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .hero-title {
+    font-size: 2.35rem;
+  }
+
+  .hero-roles {
+    font-size: 1.2rem;
+    min-height: 40px;
+  }
+
+  .hero-bio {
+    font-size: 1rem;
+  }
+
+  /* Mobile Navigation Drawer */
+  .mobile-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    width: 100%;
+    height: calc(100vh - var(--nav-height));
+    background: var(--bg-glass);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 24px;
+    gap: 20px;
+    border-bottom: 1px solid var(--border-glass);
+    transform: translateX(-100%);
+    transition: transform var(--transition-normal);
+    overflow-y: auto;
+  }
+
+  .nav-menu.open {
+    transform: translateX(0);
+  }
+
+  .nav-link {
+    font-size: 1.15rem;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .nav-actions .btn {
+    display: none;
+  }
+
+  /* Projects Grid */
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  /* Education Card */
+  .education-card {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 24px;
+  }
+
+  .edu-icon-badge {
+    width: 52px;
+    height: 52px;
+  }
+
+  /* Timeline */
+  .timeline-wrapper {
+    padding-left: 28px;
+  }
+
+  .timeline-marker {
+    left: -28px;
+    width: 22px;
+    height: 22px;
+  }
+
+  .timeline-card {
+    padding: 22px;
+  }
+
+  .timeline-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Certifications Grid */
+  .certs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Stats Grid */
+  .about-stats-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .about-features {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact Cards */
+  .contact-info-card,
+  .contact-form-card {
+    padding: 24px;
+  }
+
+  .contact-item-row {
+    padding: 12px 14px;
+  }
+
+  .contact-item-value {
+    font-size: 0.85rem;
+  }
+}
+
+/* --- Mobile Small & Extra Small (max-width: 480px) --- */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .hero-title {
+    font-size: 1.95rem;
+    letter-spacing: -0.5px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .hero-socials {
+    justify-content: flex-start;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .skills-tab-btn,
+  .project-filter-btn {
+    padding: 7px 14px;
+    font-size: 0.8rem;
+  }
+
+  .skills-categories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-category-card {
+    padding: 20px;
+  }
+
+  .project-content {
+    padding: 20px;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .project-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .project-actions .project-link-btn {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-brand {
+    grid-column: span 1;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .back-to-top-btn {
+    bottom: 20px;
+    right: 20px;
+    width: 42px;
+    height: 42px;
+  }
+}
+
+/* Accessibility & Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .typed-text {
+    animation: none;
+    border-right: none;
+  }
+
+  .status-dot {
+    animation: none;
+  }
+}
